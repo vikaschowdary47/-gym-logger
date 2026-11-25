@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Node / web / app
+node_modules/
+dist/
+build/
+.expo/
+.next/
+*.log
+
+# Secrets and local config (never commit these)
+.env
+.env.*
+!.env.example
+
+# Arduino build output
+firmware/**/build/
+*.bin
+*.elf
